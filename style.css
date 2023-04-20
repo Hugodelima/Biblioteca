@@ -1,0 +1,88 @@
+*{
+    margin:0 auto;
+    padding: 0 auto;
+
+}
+
+.menu_geral{
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    display: inline-block;
+}
+.menu_cima{
+    float: left;
+    margin: 15px 300px;
+}
+.menu_cima img,a{
+    margin: 0;
+    padding: 0;
+}
+.menu_baixo{
+    margin-top: 100px;
+    float: right;
+}
+
+.menu_baixo li{
+    padding-right: 100px;
+    display: inline-block;
+}
+.menu_baixo a{
+    text-decoration: none;
+}
+
+.produto_geral{
+    margin: 100px auto;
+    text-align: center;
+    max-width: 1400px;
+}
+.produto{
+    margin-right: 100px;
+    text-align: center;
+    display: inline-block;
+}
+.produto{
+    margin: 20px auto;
+    margin-right: 100px;
+    text-align: center;
+    display: inline-block;
+}
+.produto s{
+    color: brown;
+}
+.produto p{
+    font-size: 20px;
+}
+.produto a{
+    text-decoration: none;
+    color: black;
+}
+
+
+footer ul,li,h2{
+    text-align: center;
+    list-style: none;
+}
+
+
+
+
+
+.tabela table{
+    text-align: center;
+    align-items: center;
+    margin: 20px 0 40px;
+}
+
+.tabela thead{
+    background:#555555;
+    color: white;
+    font-weight: bold;
+}
+
+.tabela td, th {
+    text-align: center;
+    align-items: center;
+    border: 1px solid#000000;
+    padding: 8px 15px;
+}
