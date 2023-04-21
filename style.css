@@ -95,12 +95,12 @@ header{
 .produto h3{
     text-align: center;
     width: 300px;
-    color: black;
-    transition: 1s;
+    color: #007185;
+    transition: 0.5s;
 }
 .produto h3:hover{
-    color: blue;
-    transition: 1s;
+    color:#c7511f;
+    transition: 0.5s;
 }
 
 .produto p{
