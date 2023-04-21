@@ -148,7 +148,6 @@ header{
 }
 .mais_vendidos tr:hover {
     transition: 1s;
-    font-size: 17px;
     background-color: #d0cccc;
 }
 
