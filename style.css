@@ -83,17 +83,20 @@ header{
     margin-right: 100px;
     text-align: center;
     display: inline-block;
-    transition: 0.5s;
 }
 .produto:hover{
     border: 3px solid #7e3f3b;
-    border-radius: 20px;
-    transition: 1s;
+    transition: 0.4s;
 
 }
 .produto s{
     color: brown;
 }
+.produto h3{
+    text-align: center;
+    width: 300px;
+}
+
 .produto p{
     font-size: 20px;
 }
