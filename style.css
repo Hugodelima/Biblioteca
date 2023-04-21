@@ -102,6 +102,47 @@ header{
     color: black;
 }
 
+
+.mais_vendidos {
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 50px;
+}
+
+.mais_vendidos h1 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.mais_vendidos table {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.mais_vendidos th,td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 190px;
+}
+
+.mais_vendidos th {
+    color: white;
+    background-color: #7e3f3b;
+}
+.mais_vendidos tr {
+    transition: 0.7s;
+    font-size: 15px;
+}
+.mais_vendidos tr:hover {
+    transition: 1s;
+    font-size: 17px;
+    background-color: #d0cccc;
+}
+
 footer{
     background: #3b3d3d;
 }
@@ -115,44 +156,27 @@ footer ul,li,h2{
 
 
 
-
-.tabela table{
-    text-align: center;
-    align-items: center;
-    margin: 20px 0 40px;
-}
-.tabela h2{
-    text-align: center;
-    align-items: center;
-    margin: 20px 0 40px;
+.categorias_footer h2{
+    padding-top: 30px;
 }
 
-.tabela thead{
-    background:#555555;
-    color: white;
-    font-weight: bold;
-}
-
-.tabela td, th {
-    color: white;
-    text-align: center;
-    align-items: center;
-    border: 1px solid#ffffff;
-    padding: 8px 15px;
-}
 
 .lista_final{
+    margin-top: 30px;
     margin-right: 40px;
+}
+.lista_final li{
+    padding-bottom: 12px;
 }
 .lista_final a{
     text-decoration: none;
     color: white;
-    font-size: 20px;
+    font-size: 15px;
     transition: 0.5s;
 }
 .lista_final a:hover{
     background-color: #7e3f3b;
-    font-size: 25px;
+    font-size: 20px;
     border-radius: 7px;
     padding: 1px;
     transition: 0.5s;
