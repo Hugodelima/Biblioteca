@@ -62,21 +62,34 @@ header{
     text-decoration: none;
 }
 
+
+.titulo_inicial{
+    margin: 50px auto;
+    text-align: center;
+    transition: 1s;
+}
+
+.titulo_inicial:hover{
+    font-size: 50px;
+}
+
 .produto_geral{
     margin: 100px auto;
     text-align: center;
     max-width: 2000px;
 }
 .produto{
-    margin-right: 100px;
-    text-align: center;
-    display: inline-block;
-}
-.produto{
     margin: 20px auto;
     margin-right: 100px;
     text-align: center;
     display: inline-block;
+    transition: 0.5s;
+}
+.produto:hover{
+    border: 3px solid #7e3f3b;
+    border-radius: 20px;
+    transition: 1s;
+
 }
 .produto s{
     color: brown;
