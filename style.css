@@ -9,17 +9,46 @@ header{
 .menu_geral{
     margin: 0;
     padding: 0;
-    align-items: center;
     display: inline-block;
 }
 .menu_cima{
     float: left;
     margin: 15px 300px;
 }
-.menu_cima img,a{
-    color: rgb(255, 255, 255);
-    font-size: 20px;
+.menu_cima img{
+    width:210px;
+    height:210px;
+    transition: 1s;
+
 }
+.menu_cima img:hover{
+    width:310px;
+    height:310px;
+    transition: 1s;
+
+}
+.menu_baixo *{
+    display: inline;
+}
+.menu_baixo a{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    transition: 1s;
+}
+.menu_baixo a:hover{
+    font-size: 40px;
+    background-color: #9b3730;
+    border-radius: 7px;
+    padding: 1px;
+    transition: 0.5s;
+
+
+}
+
+.cadastro_menu{
+    margin-left: 110px;
+}
+
 .menu_baixo{
     margin-top: 100px;
     float: right;
@@ -101,6 +130,19 @@ footer ul,li,h2{
 
 .lista_final{
     margin-right: 40px;
+}
+.lista_final a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    transition: 0.5s;
+}
+.lista_final a:hover{
+    background-color: #7e3f3b;
+    font-size: 25px;
+    border-radius: 7px;
+    padding: 1px;
+    transition: 0.5s;
 }
 
 
